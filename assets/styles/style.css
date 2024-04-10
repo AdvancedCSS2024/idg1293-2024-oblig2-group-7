@@ -81,33 +81,31 @@ animation: bounce 1.5s ease infinite;
 }
 
 .footer__info {
-  font-family: "marydale", sans-serif;
-  color: black;
+  font-family: Marydale-regular;
+  font-weight: bold;
   padding: 2%;
 }
 
 .footer__background {
   background-color: #005BA7;
-  font-family: "marydale", sans-serif;
-  display: flex;
-  color: white;
-}
-.footer__background {
-  background-color: #005BA7;
-  font-family: "marydale", sans-serif;
+  font-family: Marydale-regular;
   display: flex;
   align-items: center;
+  color: white;
 }
+
 .footer__background .footer__logo {
   flex: 0.8;
   text-align: center;
 }
+
 .footer__background .footer__link {
   flex: 1;
   text-align: center;
 }
 .footer__background .footer__contact {
   flex: 1;
+  font-weight: bold;
   text-align: center;
 }
 
