@@ -47,6 +47,13 @@ body {
 #car {
 max-width: 30%;
 position: absolute;
+animation: bounce 1.5s ease infinite;
+}
+
+#moon {
+  max-width: 30%;
+  position: absolute;
+  animation: spin 7s linear infinite;
 }
 
 @keyframes bounce {
@@ -57,3 +64,46 @@ position: absolute;
   100% { transform: rotate(360deg); }
 }
 
+.qrcode {
+  max-width: 10%;
+}
+
+.footer {
+  font-family: "marydale";
+  color: #FFFFFF;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+.footer__info {
+  font-family: "marydale", sans-serif;
+  color: black;
+padding: 2%;
+}
+
+.footer__background {
+  background-color: #005BA7;
+  font-family: "marydale", sans-serif;
+  display: flex;
+  color: white;
+}
+.footer__background {
+  background-color: #005BA7;
+  font-family: "marydale", sans-serif;
+  display: flex;
+  align-items: center;
+}
+.footer__background .footer__logo {
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+.footer__background .footer__link {
+  flex: 1;
+  text-align: center;
+}
+.footer__background .footer__contact {
+  flex: 1;
+  text-align: center;
+}
