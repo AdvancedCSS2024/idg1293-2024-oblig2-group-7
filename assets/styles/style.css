@@ -73,10 +73,6 @@ animation: bounce 1.5s ease infinite;
   100% { transform: rotate(360deg); }
 }
 
-.qrcode {
-  max-width: 10%;
-}
-
 .footer {
   font-family: "marydale";
   color: #FFFFFF;
@@ -113,7 +109,6 @@ animation: bounce 1.5s ease infinite;
 .footer__background .footer__contact {
   flex: 1;
   text-align: center;
-}
 }
 
 h1 {
