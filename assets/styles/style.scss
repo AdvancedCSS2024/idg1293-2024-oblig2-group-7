@@ -60,7 +60,7 @@ h1 {
     font-weight: 700;
     font-family: sans-serif;
     color:#0d529f;
-    font-size: 50px;
+    font-size: 7vh;
     width: 20%;
     span{
         color: rgb(18, 197, 18);
@@ -69,8 +69,11 @@ h1 {
 }
 
 #top-text {
-    font-size: 24px;
-    width: 20%;
+    position: absolute;
+    left: 10%;
+    top:28%;
+    font-size: 3.5vh;
+    width: 25%;
     font-family: Marydale-regular;
 }
 

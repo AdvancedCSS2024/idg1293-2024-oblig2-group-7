@@ -51,64 +51,6 @@ body {
 
 .lightbluedivider {
   background-color: rgb(204, 115, 97);
-}/*# sourceMappingURL=style.css.map */
-
-#car {
-max-width: 30%;
-position: absolute;
-animation: bounce 1.5s ease infinite;
-}
-
-#moon {
-  max-width: 30%;
-  position: absolute;
-  animation: spin 7s linear infinite;
-}
-
-@keyframes bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
-}
-@keyframes spin {
-  100% { transform: rotate(360deg); }
-}
-
-.footer {
-  font-family: "marydale";
-  color: #FFFFFF;
-  width: 100%;
-  background-color: #FFFFFF;
-}
-
-.footer__info {
-  font-family: "marydale", sans-serif;
-  color: black;
-  padding: 2%;
-}
-
-.footer__background {
-  background-color: #005BA7;
-  font-family: "marydale", sans-serif;
-  display: flex;
-  color: white;
-}
-.footer__background {
-  background-color: #005BA7;
-  font-family: "marydale", sans-serif;
-  display: flex;
-  align-items: center;
-}
-.footer__background .footer__logo {
-  flex: 0.8;
-  text-align: center;
-}
-.footer__background .footer__link {
-  flex: 1;
-  text-align: center;
-}
-.footer__background .footer__contact {
-  flex: 1;
-  text-align: center;
 }
 
 h1 {
@@ -118,7 +60,7 @@ h1 {
   font-weight: 700;
   font-family: sans-serif;
   color: #0d529f;
-  font-size: 50px;
+  font-size: 7vh;
   width: 20%;
 }
 h1 span {
@@ -126,7 +68,10 @@ h1 span {
 }
 
 #top-text {
-  font-size: 24px;
-  width: 20%;
+  position: absolute;
+  left: 10%;
+  top: 28%;
+  font-size: 3.5vh;
+  width: 25%;
   font-family: Marydale-regular;
 }/*# sourceMappingURL=style.css.map */
