@@ -74,7 +74,6 @@ animation: bounce 1.5s ease infinite;
 }
 
 .footer {
-  font-family: "marydale";
   color: #FFFFFF;
   width: 100%;
   background-color: #FFFFFF;
@@ -87,10 +86,10 @@ animation: bounce 1.5s ease infinite;
 }
 
 .footer__background {
-  background-color: #005BA7;
   font-family: Marydale-regular;
   display: flex;
   align-items: center;
+  background-color: #005BA7;
   color: white;
 }
 
