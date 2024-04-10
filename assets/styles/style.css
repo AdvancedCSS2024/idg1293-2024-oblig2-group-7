@@ -2,13 +2,18 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: Marydale-regular;
+  src: url(../Marydale\ Regular.ttf);
+}
 body {
   background-color: white;
+  display: relative;
 }
 
 .white {
   background-color: #fff;
-  height: 100px;
+  height: 150px;
   width: 100%;
 }
 
@@ -22,22 +27,26 @@ body {
   background-color: rgba(0, 164, 214, 0.15);
   height: 100px;
   width: 100%;
+  z-index: -3;
 }
 
 .pink {
   background-color: #cc7361;
   height: 100px;
   width: 100%;
+  z-index: -3;
 }
 
 .whitedivider {
   background-color: #0d529f;
   width: 100%;
+  z-index: -3;
 }
 
 .bluedivider {
   background-color: rgba(0, 164, 214, 0.15);
   width: 100%;
+  z-index: -3;
 }
 
 .lightbluedivider {
@@ -105,3 +114,24 @@ animation: bounce 1.5s ease infinite;
   flex: 1;
   text-align: center;
 }
+}
+
+h1 {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: #0d529f;
+  font-size: 50px;
+  width: 20%;
+}
+h1 span {
+  color: rgb(18, 197, 18);
+}
+
+#top-text {
+  font-size: 24px;
+  width: 20%;
+  font-family: Marydale-regular;
+}/*# sourceMappingURL=style.css.map */
