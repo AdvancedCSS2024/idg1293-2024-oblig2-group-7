@@ -76,7 +76,7 @@ animation: bounce 1.5s ease infinite;
 }
 
 #clouds {
-  max-width: 30%;
+  max-width: 60%;
   animation: bounce 3s ease infinite;
 }
 
