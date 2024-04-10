@@ -19,7 +19,7 @@ body {
 
 .blue {
   background-color: #0d529f;
-  height: 100px;
+  height: 120px;
   width: 100%;
 }
 
@@ -129,4 +129,20 @@ h1 span {
   font-size: 3.5vh;
   width: 25%;
   font-family: Marydale-regular;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
+
+.blue {
+  position: relative;
+}
+
+#blue-text {
+  position: absolute;
+  left: 10%;
+  font-size: 4vh;
+  width: 37%;
+  color: white;
+  font-family: Marydale-regular;
+  font-weight: bold;
+
+}
