@@ -98,18 +98,26 @@ h1 span {
 }
 
 #moon {
-  max-width: 30%;
+  width: 20%;
   position: absolute;
+  right: 10%;
+  bottom: 20%;
   animation: spin 7s linear infinite;
 }
 
 #bigstar {
-  max-width: 10%;
+  position: absolute;
+  right: 6%;
+  top: 35%;
+  width: 6%;
   animation: big 6s linear infinite;
 }
 
 #smallstar {
-  max-width: 10%;
+  position: absolute;
+  right: 4%;
+  top: 50%;
+  width: 4%;
   animation: small 6s linear infinite;
 }
 
@@ -142,9 +150,9 @@ h1 span {
   }
 }
 .footer {
-  color: #FFFFFF;
+  color: #ffffff;
   width: 100%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .footer__info {
@@ -157,7 +165,7 @@ h1 span {
   font-family: Marydale-regular;
   display: flex;
   align-items: center;
-  background-color: #005BA7;
+  background-color: #005ba7;
   color: white;
 }
 
