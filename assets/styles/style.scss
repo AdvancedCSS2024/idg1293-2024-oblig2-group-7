@@ -95,3 +95,82 @@ h1 {
     width: 30%;
     left: 10%;
 }
+
+#car {
+    max-width: 30%;
+    position: absolute;
+    animation: bounce 1.5s ease infinite;
+    }
+    
+    #moon {
+      max-width: 30%;
+      position: absolute;
+      animation: spin 7s linear infinite;
+    }
+    
+    #bigstar {
+      max-width: 10%;
+      animation: big 6s linear infinite;
+    }
+    
+    #smallstar {
+      max-width: 10%;
+      animation: small 6s linear infinite;
+    }
+    
+    #clouds {
+      max-width: 60%;
+      animation: bounce 3s ease infinite;
+    }
+    
+    @keyframes big {
+      100% { transform: rotate(360deg); }
+    }
+    
+    @keyframes small {
+      100% { transform: rotate(-360deg); }
+    }
+    
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    @keyframes spin {
+      100% { transform: rotate(360deg); }
+    }
+    
+    .footer {
+      color: #FFFFFF;
+      width: 100%;
+      background-color: #FFFFFF;
+    }
+    
+    .footer__info {
+      font-family: Marydale-regular;
+      font-weight: bold;
+      padding: 2%;
+    }
+    
+    .footer__background {
+      font-family: Marydale-regular;
+      display: flex;
+      align-items: center;
+      background-color: #005BA7;
+      color: white;
+    }
+    
+    .footer__background .footer__logo {
+      flex: 0.8;
+      text-align: center;
+    }
+    
+    .footer__background .footer__link {
+      flex: 1;
+      text-align: center;
+    }
+    .footer__background .footer__contact {
+      flex: 1;
+      font-weight: bold;
+      text-align: center;
+    }
+    
