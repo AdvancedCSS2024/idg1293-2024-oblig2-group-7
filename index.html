@@ -27,6 +27,21 @@
     <div class='lightbluedivider'><img src="assets/styles/img/dividerlightblue.svg" alt="dividerlightblue"></div>
     <section class ='pink'><img class="earth" src="assets/styles/img/earth.svg" alt="earth"></section>
     
+    <section class ='pink'></section>
+
+    <img id="car" src="assets/styles/img/car.svg">
+    <img id="clouds" src="assets/styles/img/clouds.svg" alt="clouds">
+
+    <!-- SMIL animate, path polygon taken from slide 61 (Lecture SVG) -->
+    <svg width="400" height="400">
+      <polygon points="60,30 90,90 30,90">
+        <path id="Path" d="M10,200 V100,10 H-190,"/>
+        <animateMotion dur="2s" repeatCount="indefinite">
+          <mpath href="#Path"/>
+          </animateMotion>
+    </svg>
+
+
     <footer>
       <div class="footer__info">
         <p>
