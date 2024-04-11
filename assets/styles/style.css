@@ -149,6 +149,10 @@ h1 span {
   animation: bounce 3s ease infinite;
 }
 
+#ntnulogo {
+  max-width: 40%;
+}
+
 @keyframes big {
   100% {
     transform: rotate(360deg);
