@@ -19,44 +19,82 @@ body {
 
 .blue {
   background-color: #0d529f;
-  height: 120px;
+  position: relative;
+  height: 100px;
   width: 100%;
 }
 
 .lightblue {
   background-color: rgba(0, 164, 214, 0.15);
-  height: 100px;
   width: 100%;
-  z-index: -3;
+  height: 350px;
+  position: relative;
 }
 
 .pink {
   background-color: #cc7361;
   height: 100px;
   width: 100%;
-  z-index: -3;
 }
 
 .whitedivider {
   background-color: #0d529f;
   width: 100%;
-  z-index: -3;
 }
 
 .bluedivider {
   background-color: rgba(0, 164, 214, 0.15);
   width: 100%;
-  z-index: -3;
 }
 
 .lightbluedivider {
   background-color: rgb(204, 115, 97);
-}/*# sourceMappingURL=style.css.map */
+}
+
+h1 {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: #0d529f;
+  font-size: 7vh;
+  width: 20%;
+}
+h1 span {
+  color: rgb(18, 197, 18);
+}
+
+#top-text {
+  position: absolute;
+  left: 10%;
+  top: 28%;
+  font-size: 3.5vh;
+  width: 25%;
+  font-family: Marydale-regular;
+}
+
+#blue-text {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  font-size: 3vh;
+  width: 37%;
+  color: white;
+  font-family: Marydale-regular;
+  font-weight: bold;
+}
+
+#car-text {
+  position: absolute;
+  width: 30%;
+  left: 10%;
+}
 
 #car {
-max-width: 30%;
-position: absolute;
-animation: bounce 1.5s ease infinite;
+  max-width: 30%;
+  position: absolute;
+  animation: bounce 1.5s ease infinite;
 }
 
 #moon {
@@ -81,21 +119,28 @@ animation: bounce 1.5s ease infinite;
 }
 
 @keyframes big {
-  100% { transform: rotate(360deg); }
+  100% {
+    transform: rotate(360deg);
+  }
 }
-
 @keyframes small {
-  100% { transform: rotate(-360deg); }
+  100% {
+    transform: rotate(-360deg);
+  }
 }
-
 @keyframes bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
 @keyframes spin {
-  100% { transform: rotate(360deg); }
+  100% {
+    transform: rotate(360deg);
+  }
 }
-
 .footer {
   color: #FFFFFF;
   width: 100%;
@@ -125,47 +170,9 @@ animation: bounce 1.5s ease infinite;
   flex: 1;
   text-align: center;
 }
+
 .footer__background .footer__contact {
   flex: 1;
   font-weight: bold;
   text-align: center;
-}
-
-h1 {
-  position: absolute;
-  left: 10%;
-  top: 10%;
-  font-weight: 700;
-  font-family: sans-serif;
-  color: #0d529f;
-  font-size: 7vh;
-  width: 20%;
-}
-h1 span {
-  color: rgb(18, 197, 18);
-}
-
-#top-text {
-  position: absolute;
-  left: 10%;
-  top: 28%;
-  font-size: 3.5vh;
-  width: 25%;
-  font-family: Marydale-regular;
-  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
-
-.blue {
-  position: relative;
-}
-
-#blue-text {
-  position: absolute;
-  left: 10%;
-  font-size: 4vh;
-  width: 37%;
-  color: white;
-  font-family: Marydale-regular;
-  font-weight: bold;
-
-}
