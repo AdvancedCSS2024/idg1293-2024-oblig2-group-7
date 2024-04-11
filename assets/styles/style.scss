@@ -19,34 +19,34 @@ body {
 
 .blue {
     background-color: #0d529f;
+    position:relative;
     height: 100px;
     width: 100%;
 }
 
 .lightblue {
     background-color: rgb(0, 164, 214, 0.15);
-    height: 100px;
     width:100%;
-    z-index: -3;
+    height: 350px;
+    position: relative;
 }
 
 .pink {
     background-color: #cc7361;
     height: 100px;
     width: 100%;
-    z-index: -3;
+
 }
 
 .whitedivider {
     background-color: #0d529f;
     width: 100%;
-    z-index: -3;
 }
 
 .bluedivider {
     background-color: rgb(0, 164, 214, 0.15);
     width: 100%;
-    z-index: -3;
+
 }
 
 .lightbluedivider {
@@ -78,3 +78,20 @@ h1 {
 }
 
 
+#blue-text {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  font-size: 3vh;
+  width: 37%;
+  color: white;
+  font-family: Marydale-regular;
+  font-weight: bold;
+
+}
+
+#car-text {
+    position: absolute;
+    width: 30%;
+    left: 10%;
+}
