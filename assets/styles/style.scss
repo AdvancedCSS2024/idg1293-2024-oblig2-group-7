@@ -100,27 +100,39 @@ h1 {
     animation: bounce 1.5s ease infinite;
 }
 
-#moon {
-    width: 20%;
+.moonstar {
     position: absolute;
-    right: 10%;
-    bottom: 20%;
+    right: 8%;
+    bottom: 10%;
+}
+
+.moonstar__wrapper {
+    position:relative;
+    height: 200px;
+    width: 450px;
+}
+
+#moon {
+    width: 50%;
+    position: absolute;
+    right: 20%;
     animation: spin 7s linear infinite;
 }
 
 #bigstar {
     position: absolute;
-    right: 6%;
-    top: 35%;
-    width: 6%;
+    right: 10%;
+    width: 10%;
     animation: big 6s linear infinite;
+    position: absolute;
+    top: 1%;
 }
 
 #smallstar {
     position: absolute;
-    right: 4%;
-    top: 50%;
-    width: 4%;
+    right: 5%;
+    top: 35%;
+    width: 8%;
     animation: small 6s linear infinite;
 }
 
