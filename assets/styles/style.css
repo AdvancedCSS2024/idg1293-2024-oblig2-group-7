@@ -20,20 +20,20 @@ body {
 .blue {
   background-color: #0d529f;
   position: relative;
-  height: 100px;
+  height: 200px;
   width: 100%;
 }
 
 .lightblue {
   background-color: rgba(0, 164, 214, 0.15);
   width: 100%;
-  height: 300px;
+  height: 800px;
   position: relative;
 }
 
 .pink {
   background-color: #cc7361;
-  height: 500px;
+  height: 1100px;
   width: 100%;
   position: relative;
 }
@@ -108,12 +108,12 @@ h1 span {
 
 .moonstar__wrapper {
   position: relative;
-  height: 200px;
+  height: 400px;
   width: 450px;
 }
 
 #moon {
-  width: 50%;
+  width: 80%;
   position: absolute;
   right: 20%;
   animation: spin 7s linear infinite;
@@ -121,8 +121,8 @@ h1 span {
 
 #bigstar {
   position: absolute;
-  right: 10%;
-  width: 10%;
+  right: 6%;
+  width: 20%;
   animation: big 6s linear infinite;
   position: absolute;
   top: 1%;
@@ -130,9 +130,9 @@ h1 span {
 
 #smallstar {
   position: absolute;
-  right: 5%;
+  right: 1%;
   top: 35%;
-  width: 8%;
+  width: 16%;
   animation: small 6s linear infinite;
 }
 
